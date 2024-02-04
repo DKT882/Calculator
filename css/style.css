@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --border:rgb(58, 23, 23);
+}
+.logo{
+    position: relative;
+    left: 10px;
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+    background-image: url(../images/calogo.jpg);
+    background-position: center -10px;
+    background-size: 65px;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+.logo:hover{
+    outline: 5px solid rgb(61, 20, 65);
+}
+
+.navbar{
+    height: 80px;
+    background-color: rgb(123, 33, 131);
+}
+
+.calculator table{
+    user-select: none;
+    background-color: var(--border);
+    cursor: context-menu;
+}
+
+.calculator table , .calculator table td{
+    border:5px solid red;
+    border-spacing: 0;
+    border-radius: 25px;
+    border-color: var(--border);
+    text-align: center;
+}
+.calculator table td{
+    font-size: 25px;
+    background-color: rgb(173, 160, 160);
+    width: 75px;
+    height: 85px;
+}
+
+.calculator table tr .display{
+    width: 328.800px;
+    height: 110px;
+    background-color: rgb(153, 153, 205);
+    text-align: right;
+    font-size: 40px;
+}
+
+.calculator table tr .display span{
+    display: inline-block;
+    width: 320px;
+    overflow-x: hidden!important;
+    padding: 0 10px;
+}

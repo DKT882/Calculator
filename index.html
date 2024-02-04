@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <title>Calculator By DKT</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar flex align-center">
+            <div class="logo brr"></div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="calculator flex align-center justify-center">
+            <table>
+                <tr>
+                    <td class="display" colspan="4"><span id="calculator-display"></span></td>
+                </tr>
+                <tr>
+                    <td onclick="ac()">AC</td>
+                    <td onclick="brackets()">()</td>
+                    <td onclick="percentage()">%</td>
+                    <td onclick="divide()">/</td>
+                </tr>
+
+                <tr>
+                    <td onclick="seven()">7</td>
+                    <td onclick="eight()">8</td>
+                    <td onclick="nine()">9</td>
+                    <td onclick="multiply()">X</td>
+                </tr>
+
+                <tr>
+                    <td onclick="four()">4</td>
+                    <td onclick="five()">5</td>
+                    <td onclick="six()">6</td>
+                    <td onclick="subtract()">-</td>
+                </tr>
+
+                <tr>
+                    <td onclick="one()">1</td>
+                    <td onclick="two()">2</td>
+                    <td onclick="three()">3</td>
+                    <td onclick="add()">+</td>
+                </tr>
+
+                <tr>
+                    <td onclick="zero()">0</td>
+                    <td onclick="dot()">.</td>
+                    <td onclick="back()">back</td>
+                    <td onclick="equal()">=</td>
+                </tr>
+
+            </table>
+        </div>
+    </main>
+    <script src="js/script.js"></script>    
+</body>
+
+</html>
