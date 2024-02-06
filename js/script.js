@@ -95,8 +95,6 @@ const back=()=>{
 }
 
 const equal=()=>{
-    arr = arr.join('')
-    var text=arr.toString()
-    document.getElementById('calculator-display').innerHTML=eval(text);
+    document.getElementById('calculator-display').innerHTML=eval(arr.join('').toString());
 }
 

@@ -7,12 +7,26 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utility.css">
     <title>Calculator By DKT</title>
+    <link rel="icon" href="images/calculator-icon.png">
 </head>
 
 <body>
     <header>
-        <nav class="navbar flex align-center">
-            <div class="logo brr"></div>
+        <nav class="nav flex">
+            <div class="nav-margin flex">
+                <div class="logo">
+                    <a href="https://www.instagram.com/dkt_.swift/" class="flex justify-center align-f-st"><img src="images/calogo.jpg" alt="Logo"></a>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Report</a></li>
+                        <li><a href="#">More</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -23,8 +37,8 @@
                     <td class="display" colspan="4"><span id="calculator-display"></span></td>
                 </tr>
                 <tr>
-                    <td onclick="ac()">AC</td>
-                    <td onclick="brackets()">()</td>
+                    <td onclick="ac()" id='ac'>AC</td>
+                    <td onclick="brackets()">( )</td>
                     <td onclick="percentage()">%</td>
                     <td onclick="divide()">/</td>
                 </tr>
@@ -53,8 +67,8 @@
                 <tr>
                     <td onclick="zero()">0</td>
                     <td onclick="dot()">.</td>
-                    <td onclick="back()">back</td>
-                    <td onclick="equal()">=</td>
+                    <td onclick="back()" id="back" >back</td>
+                    <td onclick="equal()" id="equal" >=</td>
                 </tr>
 
             </table>

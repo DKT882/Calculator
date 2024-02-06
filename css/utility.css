@@ -16,3 +16,9 @@
 .align-center{
     align-items: center;
 }
+.align-f-end{
+    align-items: flex-end;
+}
+.align-f-st{
+    align-items: flex-start;
+}
